@@ -3,8 +3,8 @@ let suma=0;
 let cut=0;
 
 function add() {
-    let name = $("#username").val();
-    let money = $("#usermoney").val();
+    let name = $("#userName").val();
+    let money = $("#userMoney").val();
     cont +=1;
 
     distribute(name, money, cont);
@@ -12,8 +12,8 @@ function add() {
     let nametoshow= `<h5> ${name}: </h5>`
     let moneytoshow= `<h5> $ ${money}: </h5>`
 
-    $("#historyname").append(nametoshow);
-    $("#historymoney").append(moneytoshow);
+    $("#historyName").append(nametoshow);
+    $("#historyMoney").append(moneytoshow);
 }
 
 function distribute(person, spent, c) {
