@@ -16,7 +16,7 @@ function add() {
     $("#historyMoney").append(moneytoshow);
 }
 
-function distribute(person, spent, c) {
+function distribute(_person, spent, c) {
     suma+= parseInt(spent);
     $("#result").text("$" + suma);
 
